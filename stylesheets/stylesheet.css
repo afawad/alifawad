@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #222;
+  opacity: 0.5;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  opacity: 1.0;
+}
+
+h3 {
+  margin: 0 0 40px 0;
+  padding: 0;
+  font-size: 72px;
+  font-weight: 300;
+}
+
+section {
+  width: 680px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20vh;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+section small {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.3;
+  margin-top: 40px;
+}
+
+section ul {
+  list-style: none;
+  margin: 14px 0 0 0;
+  padding: 0;
+}
+
+section ul li {
+  display: inline-block;
+  padding: 10px 15px;
+}
